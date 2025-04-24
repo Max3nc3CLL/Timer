@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7A5E5ABE2DB7DDDA00CFB2F8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5E5ABD2DB7DDDA00CFB2F8 /* UserNotifications.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7A5E5AA92DB7DA1600CFB2F8 /* SimpleTimerMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5E5ABD2DB7DDDA00CFB2F8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5E5ABE2DB7DDDA00CFB2F8 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				7A5E5AAB2DB7DA1600CFB2F8 /* SimpleTimerMac */,
+				7A5E5ABC2DB7DDDA00CFB2F8 /* Frameworks */,
 				7A5E5AAA2DB7DA1600CFB2F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,14 @@
 				7A5E5AA92DB7DA1600CFB2F8 /* SimpleTimerMac.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7A5E5ABC2DB7DDDA00CFB2F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5E5ABD2DB7DDDA00CFB2F8 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +264,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SimpleTimerMac/SimpleTimerMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RPGNYY4KT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -274,9 +291,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SimpleTimerMac/SimpleTimerMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RPGNYY4KT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
